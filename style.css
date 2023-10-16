@@ -1,4 +1,24 @@
+* {
+	font-size:1vw;
+
+}
 .title {
 	font-size:50px;
 	position:absolute;
+}
+
+.settingsButton{
+	position:relative;
+}
+.settingsButton p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.settingsButton:hover{
+	text-decoration:underline;
+}
+
+.box{
+	border:solid;
 }
