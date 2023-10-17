@@ -3,8 +3,9 @@
 
 }
 .title {
-	font-size:50px;
-	position:absolute;
+	font-size: 50px;
+	
+	display: inline-block;
 }
 
 .settingsButton{
@@ -21,4 +22,33 @@
 
 .box{
 	border:solid;
+	box-sizing:border-box;
+}
+
+.hNavBox {
+	border-right:solid;
+	box-sizing: border-box;
+	flex: auto;
+}
+
+.hNavContainer {
+	border: solid;
+	border-right: none;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.box[selected="true"] {
+	
+}
+
+.box[selected="false"] {
+	background-color:lightgray;
+}
+
+.settingsBar {
+	margin-left: 80vw;
+	position:absolute;
+	border-bottom: solid black;
+	display:inline-block;
 }
